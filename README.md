@@ -1,19 +1,84 @@
-# [Desaku - Desa Pagar Besi](https://desapagarbesi.net)
+# 👥 Anggota Kelompok & Pembagian Tugas
 
-[Desaku](https://desapagarbesi.net) merupakan sebuah web profil sederhana yang dibuat untuk Desa Pagar Besi, Kec. Merigi Sakti, Kab. Bengkulu Tengah.
+| No | Nama                 | NIM       | Bagian                                                |
+| -- | -------------------- | --------- | ----------------------------------------------------- |
+| 1  | Muhammad Royyan Naja | 202451034 | Konfigurasi Project, Backend & Deployment             |
+| 2  | Irsyad Muhayya       | 202451031 | Halaman Utama Website (Home, About, Skills, Projects) |
+| 3  | Ega Santiya S.       | 202451051 | Frontend, Styling, Responsive Design & Dark Mode      |
+| 4  | M Naufal Syadid M.   | 202451077 | JavaScript, Animasi, Dokumentasi & Pengujian          |
 
-## Preview
+### Anggota 1 — Konfigurasi Project, Backend & Deployment
 
-[![Desaku Preview](https://lh3.googleusercontent.com/VfQUu-Hu1U0BezrphuvdpZ93w5HsTvi3ptWBxxI-7teWMy4-K6e6CA06We3InAEQf7X-y7q3rbKKAU7gGqeA2zvdvjxyrx_DK-mfUnl583OoYwe9mp2AsrLXASFNV0jWKKy7KZV5duQxn5Wzup9sIbIxnYXkCNE1g7FkE1khsX0Q6GbbYtoqLsZPAFgZFgBfS6_NR7qAWMjDKuyn0e8ITVV4KF6p-euXRVIp6ImlMhrn8bdkqKcMTFyzitZ_r_5V0BWdZsGtx6NnkiSksDUWdUNmF0ssUr73O4iC1lnu-z9IJigFtpQzDdHx9VgulOEOGODltFMwtpJn8lXcVlxCDmbp9ycSlAVtpbXJoTjFAjnK4mhfmN0uKSXF4UbKxHGqS7D9ogZkdrt0UxqqRd7DKgMeU6OG7u5ksvhHNsxMYN4UpwpK9n1UQDyItSceyqoUGV_DICrXyNv_tzewGSYbWX_4x0nKFeOtxsoJWsuiMkkhoHeRdkvleaDPJW2tXECb5CQ2r2iYKXQtLd8JWYVrs3zkt7K-GWsTmt6OdnAq7mkoE3G_2FFP0Jd94jRdR8--7-AA4x807cN9zn1WYEQJJ1_7WuPmn1fcdeoHvfddUGIamDNCqmI8BDHiXOXziwfPtcqQyir6WVtqrwtmG3TsDUJkaaqfRCYu=w1026-h501-no)](https://desapagarbesi.net)
+File yang dikerjakan:
+`app.js`, `package.json`, `vercel.json`
 
-**[View Live Preview](https://desapagarbesi.net)**
+### Anggota 2 — Halaman Utama Website
 
-## About
+File yang dikerjakan:
+`views/index.ejs`
 
-Desaku dibangun dengan berbasiskan tema Agency dari Start Bootstrap.<br/>
+Bagian yang dikerjakan:
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+* Home Section
+* About Section
+* Skills Section
+* Projects Section
+* Contact Section
 
-## Copyright and License
+### Anggota 3 — Frontend, Styling & Responsive Design
 
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+File yang dikerjakan:
+`public/css/style.css`
+
+Bagian yang dikerjakan:
+
+* Layout Website
+* Responsive Design
+* Dark Mode
+* Animasi Hover
+* Typography
+* Warna dan Tampilan
+
+### Anggota 4 — JavaScript, Dokumentasi & Pengujian
+
+File yang dikerjakan:
+`public/js/theme.js`, `public/js/scroll.js`, `README.md`
+
+Bagian yang dikerjakan:
+
+* Theme Toggle
+* Scroll Animation
+* Progress Bar
+* Back To Top Button
+* Dokumentasi Project
+* Pengujian Website
+* Presentasi Project
+
+---
+
+# 📁 Struktur Folder Proyek
+
+```text
+portfolio-website/
+│
+├── app.js                     # Konfigurasi Express dan Routing
+├── package.json              # Informasi project dan dependencies
+├── package-lock.json
+├── vercel.json               # Konfigurasi deployment Vercel
+│
+├── views/
+│   └── index.ejs             # Halaman utama website portfolio
+│
+├── public/
+│   ├── css/
+│   │   └── style.css         # Styling website
+│   │
+│   ├── js/
+│   │   ├── theme.js          # Dark Mode / Light Mode
+│   │   └── scroll.js         # Scroll Animation & Progress Bar
+│   │
+│   └── images/
+│       └── profile.jpg       # Foto profil
+│
+└── README.md                 # Dokumentasi project
+```
